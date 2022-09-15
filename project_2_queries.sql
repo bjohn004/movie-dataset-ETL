@@ -1,4 +1,3 @@
-
 -- Create Tables
 -- Create Table for netflix dataframe
 Create Table netflix_movies_shows(
@@ -27,5 +26,3 @@ select n.id, n.title, n.type, n.rating, n.date_added_netflix, n.duration, o.rele
 From netflix_movies_shows n
 inner join omdb_results o
 on n.title = o.title;
-
-select netflix_movies
