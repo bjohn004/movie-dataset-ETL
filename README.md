@@ -1,4 +1,3 @@
-
 # Project 2 - Netflix Movies and their Viewer Ratings
 ***
 ## Group 7
@@ -23,12 +22,16 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 
 + data_extraction.ipynb
     + This jupyter notebook is the main notebook that performs the ETL on the datasets. This also contains the Technical Report
+
 + OMDB_API_data_extraction.ipynb
     + Jupyter Notebook contains the code to request data from the OMDB API and generate a .csv to be extracted into the above notebook.
+
 + netflix_titles.csv
     + This is one of the two datasets found in from the Kaggle link in the Links/References section.
+
 + omdb_data.csv
     + This is the dataset generated from the API request from the OMDB API servers.
+
 + project_2_queries.sql
     + This contains the SQL code that was used in PostgreSQL to create tables in the etlproject_db database within PostgreSQL. The code also is used to verify that the tables can be joined and used for future analysis.
 
@@ -36,6 +39,7 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 ## Instructions
   
 1. **Extraction**
+
 	1. Open your Jupyter Notebook.
     2. First, import dependencies and run.
     3. Use Pandas to read in the `netflix_shows.csv`  dataset into a dataframe.
@@ -43,6 +47,7 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
     5. Make sure to use the `df.head()` to verify contents of the datasets.
  
 2. **Transformation**
+
 	1.  For your first dataframe (netflix) from step 1.3 above transform the dataset to select the appropriate columns including, `show_id, type, title, rating, date_added and duration` .
 	2. Rename the columns as follows:
 		+ change `show_id` column name to `id`
@@ -62,4 +67,5 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 		+ change `BoxOffice` column name to `box_office`
 	6. The final transformation step will to be to fill in all of the na cell entries with a Numpy NaN or Null value. This should be performed on the `imdb_rating`, `box_office`, and `meta_score` columns.
 3. **Loading**
+
 	1. 
