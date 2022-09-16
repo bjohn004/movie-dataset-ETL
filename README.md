@@ -1,5 +1,6 @@
 
-# Project 2 - Netflix Movies and their Viewer Ratings
+# Project 2 - ETL Process
+## Topic: Netflix Movies & TV Shows and their Viewer Ratings
 ***
 ## Group 7
 + Nathan Johnson
