@@ -36,16 +36,18 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 ## Instructions
 
 1. Clone the repo to your machine
-2. Open the pgAdmin app on your machine
-3. Create a new database called ``etlproject_db``
-4. Open the query tool within the ``etlproject_db``
-5. Create tables within the database
-6. Open a GitBash/Terminal at your local Repo
-7. Type ``Source activate PythonData38`` and then hit ``ENTER``
-8. Launch Jupyter Notebooks in Google Chrome
-9. Open the ``ETL_Process_Technical_Report.ipynb``
-10. Run all the cells peforming the ETL process
-11. Once loaded into database perform joins within PostgreSQL
+1. Open the pgAdmin app on your machine
+1. Create a new database called ``etlproject_db`` 
+1. Open the query tool within the ``etlproject_db`` 
+1. Open the ``project_2_queries.sql`` file within PostgreSQL
+1. Highlight the code to create tables for the ``netflix_movies_shows`` and ``omdb_results`` tables and run
+1. Open a GitBash/Terminal at your local Repo
+1. Type ``Source activate PythonData38`` and then hit ``ENTER``
+1. Launch Jupyter Notebooks in Google Chrome
+1. Open the ``ETL_Process_Technical_Report.ipynb``
+1. Run all the cells peforming the ETL process
+1. Once the Jupyter Notebook code has completed, go back to the ``project_2_queries.sql`` file within PostgreSQL
+1. Highlight the ``join`` query and run
 
 ***
 
