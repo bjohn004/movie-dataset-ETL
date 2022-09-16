@@ -21,7 +21,7 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 ***
 ## Repo Contents
 
-+ ``data_extraction.ipynb`` 
++ ``ETL_Process_Technical_Report.ipynb`` 
 	+ This jupyter notebook is the main notebook that performs the ETL on the datasets. This also contains the Technical Report.
 + ``OMDB_API_data_extraction.ipynb`` 
 	+ Jupyter Notebook contains the code to request data from the OMDB API and generate a .csv to be extracted into the above notebook. 
@@ -43,7 +43,7 @@ The goal of this project is to utilzie a dataset from kaggle.com which consists 
 6. Open a GitBash/Terminal at your local Repo
 7. Type ``Source activate PythonData38`` and then hit ``ENTER``
 8. Launch Jupyter Notebooks in Google Chrome
-9. Open the ``data_extraction.ipynb``
+9. Open the ``ETL_Process_Technical_Report.ipynb``
 10. Run all the cells peforming the ETL process
 11. Once loaded into database perform joins within PostgreSQL
 
